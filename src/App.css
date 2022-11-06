@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
   padding: 0;
@@ -8,7 +7,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   display: flex;
   justify-content: center;
@@ -20,7 +19,7 @@ h2 {
 }
 
 button {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   padding: 5px;
   width: 100px;
@@ -28,7 +27,6 @@ button {
   border: 2px double black;
   border-radius: 5px;
   font-weight: 600;
-  
 }
 
 .buttonCard {
@@ -38,23 +36,42 @@ button {
   overflow: hidden;
   border-radius: 20px;
   box-shadow: -11px 11px 7px -3px rgba(0, 0, 0, 0.1);
-  margin-top: 25rem;
+  margin-top: 20rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #FAACA8;
-  background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
-  color:rgb(10, 10, 10);
+  background-color: #faaca8;
+  background-image: linear-gradient(19deg, #faaca8 0%, #ddd6f3 100%);
+  color: rgb(10, 10, 10);
 }
 
 .increment {
   margin-bottom: 1rem;
-
 }
 
 .decrement {
   margin-top: 1rem;
+}
+
+.link-style {
+  border: 2px;
+  background-color: #faaca8;
+  background-image: linear-gradient(19deg, #faaca8 0%, #ddd6f3 100%);
+  font-weight: 600;
+  padding: 10px;
+  margin: 2rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #0f0f0f;
+}
+
+.link:last-of-type {
+  margin-left: 15px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -63,4 +80,3 @@ button {
     padding-top: 0;
   }
 }
-

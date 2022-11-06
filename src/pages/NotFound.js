@@ -1,9 +1,9 @@
-
+import "../App.css";
 
 function NotFound() {
   return (
     <div>
-        <p>Page not found</p>
+      <p className="not-found">Page not found</p>
     </div>
   );
 }
